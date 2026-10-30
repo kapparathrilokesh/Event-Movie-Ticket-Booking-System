@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment secrets
+.env
+.env.*
+
+# Generated ticket files
+tickets/*
+!tickets/.gitkeep
+
+# Logs
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+!.env.example
